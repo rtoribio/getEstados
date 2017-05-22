@@ -2,7 +2,7 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de la app */
-define('DB_NAME', getenv("DB_NAME") ?: 'gs_contabilidad');
+define('DB_NAME', getenv("DB_NAME") ?: 'direcciones');
 
 /** Tu nombre de usuario de MySQL */
 define('DB_USER', getenv("DB_USER") ?: 'root');
